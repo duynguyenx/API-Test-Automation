@@ -1,0 +1,9 @@
+behave==1.2.5
+PyHamcrest==1.8.1
+requests==2.4.3
+jsonschema
+python-dateutil
+pytz==2015.4	
+google-api-python-client
+jsonpath-rw
+beautifulsoup4==4.5.3
