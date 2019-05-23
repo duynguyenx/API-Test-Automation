@@ -1,10 +1,8 @@
-import logging
-import urlparse
+from datetime import datetime
 
 
-class DataHelper(object):
-    logger = logging.getLogger(__name__)
+class DataHelper:
 
     @staticmethod
-    def get_query_string_list(url):
-        return dict(urlparse.parse_qsl(urlparse.urlsplit(url).query))
+    def get_unique_string_by_time():
+        return datetime.utcnow().strftime('%Y%m%d%H%M%S%f')

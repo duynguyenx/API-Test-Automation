@@ -1,6 +1,7 @@
 def before_all(context):
     pass
 
+
 def before_feature(context, feature):
     pass
 
